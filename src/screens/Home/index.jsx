@@ -5,7 +5,7 @@ import icon from '../../assets/IconBali.png'
 export default function Home() {
   return (
     <div className='h-full overflow-y-hidden'>
-    <div className='absolute w-full bg-opacity-80 bg-indigo-500 h-full'></div>
+    <div className='absolute w-full bg-opacity-80 bg-indigo-500 h-screen'></div>
     <div className="container-bg lg:h-screen md:h-screen  h-screen  w-full">
         <div className=' font-pacifico w-full h-full flex items-center justify-center flex-col'>
           <img className='z-10' alt='' src={icon} />
